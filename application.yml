@@ -1,0 +1,5 @@
+---
+eureka:
+  cient:
+    serviceURL:
+      defaultZone:  http://localhost:8010/eureka
