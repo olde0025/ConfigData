@@ -28,24 +28,34 @@ words: NotApplicable
 ---
 spring:
   profiles: subject
+  application:
+    name: LAB-4-SUBJECT
 words: I,You,He,She,It
   
 ---
 spring:
   profiles: verb
+  application:
+    name: LAB-4-VERB
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
+  application:
+    name: LAB-4-ARTICLE
 words: a,the
 
 ---
 spring:
   profiles: adjective
+  application:
+    name: LAB-4-ADJECTIVE
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
+  application:
+    name: LAB-4-NOUN
 words: boat,book,vote,seat,backpack,partition,groundhog
