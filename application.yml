@@ -77,3 +77,9 @@ spring:
   application:
     name: NOUN
 words: icicle,refrigerator,blizzard,snowball
+
+---
+spring:
+  profiles: base-service
+  application:
+    name: baseAppMemberService
