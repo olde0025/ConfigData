@@ -32,8 +32,8 @@ management:
 ---
 spring:
   profiles: base-service
-server:
-  port: 8020  
+application:
+    name: BASEAPPMEMBERSERVICE 
 words: NotApplicable
     
 ---
