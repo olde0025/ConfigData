@@ -32,7 +32,7 @@ management:
 ---
 spring:
   profiles: base-service
-application:
+  application:
     name: BASEAPPMEMBERSERVICE 
 words: NotApplicable
     
