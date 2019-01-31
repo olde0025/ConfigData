@@ -31,7 +31,7 @@ management:
 
 ---
 spring:
-  profiles: sentence
+  profiles: base-service
 server:
   port: 8020  
 words: NotApplicable
@@ -78,8 +78,4 @@ spring:
     name: NOUN
 words: icicle,refrigerator,blizzard,snowball
 
----
-spring:
-  profiles: base-service
-  application:
-    name: baseAppMemberService
+
