@@ -35,6 +35,8 @@ spring:
   application:
     name: BASEAPPMEMBERSERVICE 
 words: NotApplicable
+server:
+  port: 8080
     
 ---
 spring:
